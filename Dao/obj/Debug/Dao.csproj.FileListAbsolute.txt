@@ -7,3 +7,12 @@ C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V5.1\Dao\bin\Debug\Entidades
 C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V5.1\Dao\obj\Debug\Dao.csproj.CopyComplete
 C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V5.1\Dao\obj\Debug\Dao.dll
 C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V5.1\Dao\obj\Debug\Dao.pdb
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Dao\bin\Debug\Dao.dll
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Dao\bin\Debug\Dao.pdb
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Dao\bin\Debug\Entidades.dll
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Dao\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Dao\obj\Debug\Dao.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Dao\obj\Debug\Dao.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Dao\obj\Debug\Dao.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Dao\obj\Debug\Dao.dll
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Dao\obj\Debug\Dao.pdb

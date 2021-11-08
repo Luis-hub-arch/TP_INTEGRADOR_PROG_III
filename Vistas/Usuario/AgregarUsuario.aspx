@@ -73,6 +73,16 @@
         .auto-style23 {
             text-align: left;
         }
+        .auto-style24 {
+            width: 173px;
+            text-align: center;
+            height: 26px;
+        }
+        .auto-style25 {
+            text-align: left;
+            width: 381px;
+            height: 26px;
+        }
     </style>
 </head>
 <body>
@@ -107,7 +117,8 @@
                     <asp:TextBox ID="txtNom" runat="server" Width="373px"></asp:TextBox>
                 </td>
                 <td class="auto-style14">
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfvNombre" runat="server" ControlToValidate="txtNom">Ingrese Nombre</asp:RequiredFieldValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style16">Apellido</td>
@@ -115,7 +126,8 @@
                     <asp:TextBox ID="txtApellido" runat="server" Width="373px"></asp:TextBox>
                 </td>
                 <td class="auto-style14">
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfvApellido" runat="server" ControlToValidate="txtApellido">Ingrese Apellido</asp:RequiredFieldValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style15">Email</td>
@@ -123,7 +135,8 @@
                     <asp:TextBox ID="txtEmail" runat="server" Width="373px"></asp:TextBox>
                 </td>
                 <td class="auto-style18">
-                    &nbsp;</td>
+                    <asp:CompareValidator ID="cvEmail" runat="server" ControlToValidate="txtEmail" Operator="GreaterThan" Type="Integer" ValueToCompare="0">Ingrese Email</asp:CompareValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style15">Numero Celular</td>
@@ -131,15 +144,17 @@
                     <asp:TextBox ID="txtNumCel" runat="server" Width="373px"></asp:TextBox>
                 </td>
                 <td class="auto-style18">
-                    &nbsp;</td>
+                    <asp:CompareValidator ID="cvNumeroCelular" runat="server" ControlToValidate="txtNumCel" Operator="GreaterThan" Type="Integer" ValueToCompare="0">Ingrese Numero Celular</asp:CompareValidator>
+                </td>
             </tr>
             <tr>
-                <td class="auto-style15">Dni</td>
-                <td class="auto-style18">
+                <td class="auto-style24">Dni</td>
+                <td class="auto-style25">
                     <asp:TextBox ID="txtDni" runat="server" Width="373px"></asp:TextBox>
                 </td>
-                <td class="auto-style18">
-                    &nbsp;</td>
+                <td class="auto-style25">
+                    <asp:CompareValidator ID="cvDni" runat="server" ControlToValidate="txtDni" Operator="GreaterThan" Type="Integer" ValueToCompare="0">Ingrese DNI</asp:CompareValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style15">Direccion</td>
@@ -147,7 +162,8 @@
                     <asp:TextBox ID="TxtDireccion" runat="server" Width="373px"></asp:TextBox>
                 </td>
                 <td class="auto-style18">
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfvDireccion" runat="server" ControlToValidate="TxtDireccion">Ingrese Direccion</asp:RequiredFieldValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style15">Contraseña</td>
@@ -155,18 +171,21 @@
                     <asp:TextBox ID="txtContraseña" runat="server" Width="373px"></asp:TextBox>
                 </td>
                 <td class="auto-style18">
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfvContraseña" runat="server" ControlToValidate="txtContraseña">Ingrese Contraseña</asp:RequiredFieldValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style15">Tipo de Usuario</td>
                 <td class="auto-style18">
                     <asp:DropDownList ID="ddlTipo" runat="server" Height="32px" Width="225px">
+                        <asp:ListItem>-- Seleccione Tipo --</asp:ListItem>
                         <asp:ListItem>Administrador</asp:ListItem>
                         <asp:ListItem>Cliente</asp:ListItem>
                     </asp:DropDownList>
                 </td>
                 <td class="auto-style18">
-                    &nbsp;</td>
+                    <asp:RequiredFieldValidator ID="rfvTipo" runat="server" ControlToValidate="ddlTipo" InitialValue="-- Seleccione Tipo --">Ingrese Tipo</asp:RequiredFieldValidator>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style20"></td>

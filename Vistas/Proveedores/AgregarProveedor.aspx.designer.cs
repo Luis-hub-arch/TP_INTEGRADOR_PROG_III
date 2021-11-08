@@ -60,6 +60,15 @@ namespace Vistas.Proveedores
         protected global::System.Web.UI.WebControls.TextBox TxtRazonSocial;
 
         /// <summary>
+        /// Control rfvRazonSocial.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvRazonSocial;
+
+        /// <summary>
         /// Control TxtMarca.
         /// </summary>
         /// <remarks>
@@ -67,6 +76,15 @@ namespace Vistas.Proveedores
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtMarca;
+
+        /// <summary>
+        /// Control rfvMarca.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvMarca;
 
         /// <summary>
         /// Control TxtDireccion.
@@ -78,6 +96,15 @@ namespace Vistas.Proveedores
         protected global::System.Web.UI.WebControls.TextBox TxtDireccion;
 
         /// <summary>
+        /// Control rfvDireccion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvDireccion;
+
+        /// <summary>
         /// Control TxtCiudad.
         /// </summary>
         /// <remarks>
@@ -85,6 +112,15 @@ namespace Vistas.Proveedores
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtCiudad;
+
+        /// <summary>
+        /// Control rfvCiudad.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvCiudad;
 
         /// <summary>
         /// Control TxtProvincia.
@@ -96,6 +132,15 @@ namespace Vistas.Proveedores
         protected global::System.Web.UI.WebControls.TextBox TxtProvincia;
 
         /// <summary>
+        /// Control rfvProvincia.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvProvincia;
+
+        /// <summary>
         /// Control TxtCuit.
         /// </summary>
         /// <remarks>
@@ -103,6 +148,15 @@ namespace Vistas.Proveedores
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtCuit;
+
+        /// <summary>
+        /// Control cvCuit.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvCuit;
 
         /// <summary>
         /// Control TxtTelefono.
@@ -114,6 +168,15 @@ namespace Vistas.Proveedores
         protected global::System.Web.UI.WebControls.TextBox TxtTelefono;
 
         /// <summary>
+        /// Control cvTelefono.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvTelefono;
+
+        /// <summary>
         /// Control TxtContacto.
         /// </summary>
         /// <remarks>
@@ -121,6 +184,15 @@ namespace Vistas.Proveedores
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtContacto;
+
+        /// <summary>
+        /// Control rfvContacto.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvContacto;
 
         /// <summary>
         /// Control TxtWeb.
@@ -132,6 +204,15 @@ namespace Vistas.Proveedores
         protected global::System.Web.UI.WebControls.TextBox TxtWeb;
 
         /// <summary>
+        /// Control revWeb.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revWeb;
+
+        /// <summary>
         /// Control TxtEmail.
         /// </summary>
         /// <remarks>
@@ -141,6 +222,15 @@ namespace Vistas.Proveedores
         protected global::System.Web.UI.WebControls.TextBox TxtEmail;
 
         /// <summary>
+        /// Control revEmail.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revEmail;
+
+        /// <summary>
         /// Control TxtCBU.
         /// </summary>
         /// <remarks>
@@ -148,6 +238,15 @@ namespace Vistas.Proveedores
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtCBU;
+
+        /// <summary>
+        /// Control cvCBU.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvCBU;
 
         /// <summary>
         /// Control BtnAgregar.

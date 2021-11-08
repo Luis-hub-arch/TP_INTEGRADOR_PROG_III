@@ -45,21 +45,21 @@
             width: 258px;
         }
         .auto-style14 {
-            width: 53%;
+            width: 54%;
             margin-left: 34px;
         }
         .auto-style15 {
             width: 258px;
             height: 23px;
-            text-align: right;
+            text-align: center;
         }
         .auto-style16 {
             height: 23px;
-            width: 437px;
+            width: 293px;
         }
         .auto-style17 {
             width: 258px;
-            text-align: right;
+            text-align: center;
         }
         .auto-style18 {
             text-align: left;
@@ -71,7 +71,16 @@
             width: 657px;
         }
         .auto-style21 {
-            width: 437px;
+            width: 293px;
+        }
+        .auto-style22 {
+            width: 293px;
+            text-align: center;
+        }
+        .auto-style23 {
+            height: 23px;
+            width: 293px;
+            text-align: center;
         }
     </style>
 </head>
@@ -106,23 +115,31 @@
         <table align="center" class="auto-style14">
             <tr>
                 <td class="auto-style15">Nombre de Categoria</td>
-                <td class="auto-style16">
+                <td class="auto-style23">
                     <asp:TextBox ID="txtNombreCat" runat="server" Width="216px"></asp:TextBox>
+                </td>
+                <td class="auto-style16">
+                    <asp:RequiredFieldValidator ID="rfvNomCat" runat="server" ControlToValidate="txtNombreCat">Ingrese Categoria</asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style17">Descripcion</td>
-                <td class="auto-style21">
+                <td class="auto-style22">
                     <asp:TextBox ID="txtDescripcion" runat="server" Width="216px"></asp:TextBox>
+                </td>
+                <td class="auto-style21">
+                    <asp:RequiredFieldValidator ID="rfvDescripcion" runat="server" ControlToValidate="txtDescripcion">Ingrese Descripcion</asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style13">
                     <asp:Label ID="lblmensaje" runat="server"></asp:Label>
                 </td>
-                <td class="auto-style21">
+                <td class="auto-style22">
                     <asp:Button ID="btnCrear" runat="server" Text="Crear" Width="129px" OnClick="btnCrear_Click" />
                 </td>
+                <td class="auto-style21">
+                    &nbsp;</td>
             </tr>
         </table>
             <div class="auto-style19">

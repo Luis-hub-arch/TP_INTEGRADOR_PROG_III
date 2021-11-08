@@ -25,10 +25,12 @@ namespace Vistas.Categoria
             if (exito == true)
             {
                 lblmensaje.Text = "La Categoria se ha eliminado con éxito";
+                txtIdSuc.Text = " ";
             }
             else
             {
                 lblmensaje.Text = "La Categoria no se ha podido eliminar";
+                txtIdSuc.Text = " ";
             }
         }
     }

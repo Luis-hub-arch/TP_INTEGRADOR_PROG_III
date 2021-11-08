@@ -9,3 +9,14 @@ C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V5.1\Negocio\bin\Debug\Entid
 C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V5.1\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V5.1\Negocio\obj\Debug\Negocio.dll
 C:\Users\crest\Desktop\TP INTEGRADOR FINAL PROG III\V5.1\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Dao.dll
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Entidades.dll
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Dao.pdb
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\obj\Debug\Negocio.dll
+C:\Users\Usuario\Desktop\Clon\TP_INTEGRADOR_PROG_III\Negocio\obj\Debug\Negocio.pdb
